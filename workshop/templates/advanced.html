@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+<!--Extend from base.html and use Jinja block system and allowing for cleaner html files-->
+
+<!--Jinja custom block allowing for easy title changes-->
+{% block title %}Advanced Flask!{% endblock %}
+
+<!--Content block from base.html-->
+{% block content %}
+
+  <!--Ordered list of all the item in the python array-->
+  <ol>
+  
+  <!--Loop through every item in array-->
+  {% for items in array %}
+    
+    <!--Add each item to ordered list-->
+    <li>{{ items }}</li>
+    
+  <!--Jinja end loop-->
+  {% endfor %}
+  </ol>
+  
+{% endblock %}
