@@ -7,9 +7,11 @@ from flask import render_template, redirect, url_for
 def index():
     return render_template('index.html')
 
-@app.route("advanced", methods=['GET'])
+array = ['Hello', 'World', "Dev Club", "Lowell!", "Free food!", "CODE", "PYTHON IS SUPERIOR"]
+
+@app.route("/advanced", methods=['GET'])
 def advanced():
-    return render_template('advanced.html')
+    return render_template('advanced.html', array=array)
 
 # Error Handelers
 @app.errorhandler(404)
