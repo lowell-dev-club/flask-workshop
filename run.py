@@ -1,3 +1,4 @@
+# When not using repl.it most developers use run.py to run their flasks apps or import the flask app for use by a wgsi server or other form of running a flask app
 from workshop import app
 
 # Run Flask app
