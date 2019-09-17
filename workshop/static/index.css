@@ -1,0 +1,12 @@
+body {
+	background-color: #dddddd;
+}
+h1 {
+	color: blue;
+}
+p {
+	color: rgb(0, 255, 0);
+}
+.center-text {
+	text-align: center;
+}
