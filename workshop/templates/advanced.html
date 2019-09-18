@@ -4,6 +4,10 @@
 <!--Jinja custom block allowing for easy title changes-->
 {% block title %}Advanced Flask!{% endblock %}
 
+{% block head_css%}
+	<link rel="stylesheet" type="text/css" href={{ url_for('static', filename='css/base.css') }}>
+{% endblock %}
+
 <!--Content block from base.html-->
 {% block content %}
 
