@@ -1,8 +1,6 @@
-# Lowell Dev Club Website
+# Lowell Dev Club Flask Workshop
 
-Lowell Dev Club website hosted on heroku and can be found at https://www.lowelldev.club
-
-Lowell Dev Club is a coding club at Lowell High School with cool plans to provide good teaching experiences and coding experiences to remember
+Flask Workshop for Lowell Dev Club. Teach begginers simple html and css web pages. Allow for more advanced hackers to learn Flask server code.
 
 ## Setup
 
