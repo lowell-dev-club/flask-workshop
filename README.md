@@ -2,6 +2,8 @@
 
 Flask Workshop for Lowell Dev Club. Teach begginers simple html and css web pages. Allow for more advanced hackers to learn Flask server code.
 
+[![Run on Repl.it](https://repl.it/badge/github/lowell-dev-club/flask-workshop)](https://repl.it/github/lowell-dev-club/flask-workshop)
+
 ## Setup
 
 Clone the repository and enter it
